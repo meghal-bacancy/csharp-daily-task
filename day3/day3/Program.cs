@@ -11,3 +11,7 @@ Console.WriteLine(TitleCaseText);
 Console.WriteLine(ReverseStringText);
 Console.WriteLine(IsPalindromeText);
 Console.WriteLine(WordCountText);
+
+string palindromeText = "racecar";
+IsPalindromeText = palindromeText.IsPalindrome();
+Console.WriteLine(IsPalindromeText);
