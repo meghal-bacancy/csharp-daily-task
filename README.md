@@ -20,3 +20,11 @@ IsPalindrome(): Checks if the string is a palindrome (reads the same forwards an
 WordCount(): Counts the number of words in the string (words are separated by spaces). 
 
 ![day3](/img/day3.png)
+
+## Day 4
+Write a C# program with two threads. Each thread will try to acquire two locks in reverse order, causing a deadlock. 
+Use Thread.Sleep() to simulate some delay between the lock acquisition. Print a message indicating when the deadlock 
+occurs and how to resolve it.
+
+![day3](/img/day4.png)
+
